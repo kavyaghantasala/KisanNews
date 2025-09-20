@@ -1,0 +1,25 @@
+.smallCardContainer {
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.smallCardContainer h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.smallCardContainer p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.smallCardContainer p span{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 4px;
+}

@@ -1,0 +1,120 @@
+.weatherMainCard {
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+  /* border: 1px solid orange; */
+}
+
+.weatherCardTop {
+  height: auto;
+  /* border: 1px solid green; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.weatherCardTopCollection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+  /* border: 1px solid blue; */
+  width: 100%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+
+.weatherCardTopSubCollection{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.weatherCardTopSubCollection p {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin-left: 5px;
+}
+
+.weatherCardTopCollectionpara{
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.weatherCardTopCollection1 {
+  /* color: gray; */
+  /* border: 1px solid red; */
+  flex-direction: row;
+  /* margin: 2% 0; */
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.weatherCardTopCollection1 p{
+    /* color: gray; */
+    font-size: 24px;
+}
+
+.weatherCardIcons {
+  height: 20px;
+  width: auto;
+}
+
+.weatherCardIcons1{
+    height: 26px;
+}
+
+.weatherCardTopSecond {
+  /* border: 1px solid red; */
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.weatherCardTopSecond p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.weathermainTemp {
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+
+.weathermainTemp p {
+  font-size: 12rem;
+  font-weight: bold;
+}
+
+.celsuisicon {
+  font-family: sans-serif;
+}
+
+.smallCardsCollection {
+  /* border: 1px solid rgb(25, 0, 255); */
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

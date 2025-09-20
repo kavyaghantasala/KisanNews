@@ -1,0 +1,51 @@
+
+
+.voiceMsgContainer {
+    height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+.voiceMsgLeft {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+}
+
+.voiceMsgTitle {
+  font-weight: 600;
+  overflow: hidden;
+  height: 50%;
+  /* border: 1px solid red; */
+  margin: 0;
+  font-size: 16px;
+}
+
+.voiceMsgLang {
+    height: 50%;
+  color: #888;
+  font-size: 13px;
+  margin: 4px 0 0 0;
+}
+
+.voiceMsgButton {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voiceMsgButton:hover {
+  background-color: #f5f5f5;
+}
